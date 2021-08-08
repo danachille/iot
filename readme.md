@@ -15,3 +15,5 @@ Equipement used :
   
   - Breadboard
     https://fr.aliexpress.com/item/32898331477.html?spm=a2g0o.productlist.0.0.4b1613880VQ58I&algo_pvid=9dd30531-8bfe-4901-816b-4a535d9dc19c&algo_exp_id=9dd30531-8bfe-4901-816b-4a535d9dc19c-7
+
+I also used a modified lib in order to use custom pins on my nodemcu.
