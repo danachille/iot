@@ -17,7 +17,7 @@ Afficheur_G.init(5,4); // Initialisation de l'afficheur, SDA=5, SCL=4
   //CONNEXION AU WIFI
   Serial.begin(9600);
   pinMode(LED_BUILTIN, OUTPUT);
-  WiFi.begin("SFR_8358", "pyishyourijcynateat3");     //Modifier ici le SSID ( Nom du réseau) et le mot de passe !!
+  WiFi.begin("SSID", "Password");     //Modifier ici le SSID ( Nom du réseau) et le mot de passe !!
 
     Afficheur_G.clear(); // Effacement de l'écran
     Afficheur_G.backlight(); // Allumage
@@ -53,7 +53,7 @@ void loop() {
 
     HTTPClient http; //Declare an object of class HTTPClient
 
-    http.begin("http://latin-american-brea.000webhostapp.com/dan.json"); //Url de la data a recup
+    http.begin("http://"); //Url de la data a recup
     http.addHeader("Content-Type", "text/html");
     int httpCode = http.GET(); //Send the request
 
